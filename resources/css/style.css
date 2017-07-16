@@ -34,3 +34,18 @@ h1 {
   font-size: 18px;
   color: white;
 }
+
+/*  Style the main body of the page. */
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 14px;
+}
