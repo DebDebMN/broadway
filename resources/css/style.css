@@ -18,8 +18,9 @@ a:hover {
     color: yellow;
 }
 
-/* Style for Banner section. */
-.banner {
+/* Style the Banner section. */
+.banner,
+.about-page {
   background-image: url("../images/the-flatiron-building.png");
   background-size: cover;
 }
@@ -48,4 +49,26 @@ h3 {
 
 h4 {
   font-size: 14px;
+}
+
+/* Add styling for Designed in New York line */
+#work {
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+  background-image: url("../images/the-flatiron-building.png");
+}
+
+/* Style the footer (with naivation) all on one line. */
+.footer{
+  background-color: dimgray;
+  text-align: left;
+}
+#footercopy {
+  font-size: 11px;
+  color: white;
+}
+.footerbannerlist {
+  font-size: 11px;
+  display: inline;
 }
