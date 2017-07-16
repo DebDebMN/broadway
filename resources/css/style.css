@@ -1,0 +1,36 @@
+/* This is the css file for Codecademy's Unit 3 Broadway project: index.html.  */
+
+/* Setup for whole page. */
+body {
+  font-family: Helvetica;
+  background-color: white;
+  text-align: center;
+}
+
+/* Set up the treatment of navigation links for whole page. */
+a:link,
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: yellow;
+}
+
+/* Style for Banner section. */
+.banner {
+  background-image: url("../images/the-flatiron-building.png");
+  background-size: cover;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+}
+
+.bannerlist {
+  font-size: 18px;
+  color: white;
+}
